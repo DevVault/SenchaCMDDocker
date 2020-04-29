@@ -41,10 +41,10 @@ To run any command over your codebase, just mount it over at `/code`:
 	docker run --rm -it -v /your/local/path:/code devvault/senchamcd sencha [<options>]
 ```
 
-For example, to generate new ExtJS application `MyFirstApp` on current directory:
+For example, to generate new ExtJS application `MyApp` on current directory:
 
 ```shell
-  docker run --rm -it -v "$(pwd)":/code devvault/senchamcd sencha -sdk "$(pwd)/ext-6.2.0" generate app MyFirstApp .
+  docker run --rm -it -v "$(pwd)":/code devvault/senchamcd sencha -sdk "$(pwd)/ext-6.2.0" generate app MyApp .
 ```
 
 #### Multi-application workspace
