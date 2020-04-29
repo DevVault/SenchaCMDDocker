@@ -38,12 +38,12 @@ ENV COMPASS_VERSION=1.0.3
 RUN gem install --no-rdoc --no-ri \
                                   listen \
                                   sass \
-                                  compass -v ${COMPASS_VERSION}
+                                  compass:${COMPASS_VERSION}
 
 # Installing JsDuck
 ENV JSDUCK_VERSION=5.3.4
 RUN gem install --no-rdoc --no-ri \
-                                  jsduck -v ${JSDUCK_VERSION}
+                                  jsduck:${JSDUCK_VERSION}
 
 # Cleaning all
 RUN gem cleanup && \
@@ -55,7 +55,7 @@ RUN gem cleanup && \
            /tmp/* \
            /var/tmp/*
 
-ENV SENCHA_VERSION=7.2.0.56 \
+ENV SENCHA_VERSION=6.2.2 \
     SENCHA_PATH="/opt/Sencha/Cmd" \
     PATH="${SENCHA_PATH}/${SENCHA_VERSION}/:${PATH}"
 RUN curl -o "/cmd.run.zip" "http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip" && \
