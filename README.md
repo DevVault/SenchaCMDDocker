@@ -10,13 +10,16 @@ Sencha Cmd is the cornerstone for building your Sencha Ext JS and Sencha Touch a
 
 ### Supported tags and respective `Dockerfile` links
 
+- [`6.0.2.14`](https://github.com/DevVault/SenchaCMDDocker/blob/6.0.2.14/Dockerfile)
+- [`6.1.3.42`](https://github.com/DevVault/SenchaCMDDocker/blob/6.1.3.42/Dockerfile)
 - [`6.2.2`](https://github.com/DevVault/SenchaCMDDocker/blob/6.2.2/Dockerfile)
 - [`6.5.3.6`](https://github.com/DevVault/SenchaCMDDocker/blob/6.5.3.6/Dockerfile)
 - [`6.6.0.13`](https://github.com/DevVault/SenchaCMDDocker/blob/6.6.0.13/Dockerfile)
 - [`6.7.0.63`](https://github.com/DevVault/SenchaCMDDocker/blob/6.7.0.63/Dockerfile)
 - [`7.0.0.40`](https://github.com/DevVault/SenchaCMDDocker/blob/7.0.0.40/Dockerfile)
 - [`7.1.0.15`](https://github.com/DevVault/SenchaCMDDocker/blob/7.1.0.15/Dockerfile)
-- [`7.2.0.56`](https://github.com/DevVault/SenchaCMDDocker/blob/7.2.0.56/Dockerfile), [`latest`](https://github.com/DevVault/SenchaCMDDocker/blob/7.2.0.56/Dockerfile)
+- [`7.2.0.84`](https://github.com/DevVault/SenchaCMDDocker/blob/7.2.0.84/Dockerfile)
+- [`7.3.0.19`](https://github.com/DevVault/SenchaCMDDocker/blob/7.3.0.19/Dockerfile), [`latest`](https://github.com/DevVault/SenchaCMDDocker/blob/7.3.0.19/Dockerfile)
 
 For more information about the changes in this version please check the [release notes](https://docs-devel.sencha.com/cmd/7.2.0/guides/release_notes.html). This image is updated automatically on each generally available release of Sencha Cmd.
 
