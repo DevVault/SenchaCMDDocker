@@ -55,7 +55,7 @@ RUN gem cleanup && \
            /tmp/* \
            /var/tmp/*
 
-ENV SENCHA_VERSION=7.1.0.15 \
+ENV SENCHA_VERSION=7.2.0.84 \
     SENCHA_PATH="/opt/Sencha/Cmd" \
     PATH="${SENCHA_PATH}/${SENCHA_VERSION}/:${PATH}"
 RUN curl -o "/cmd.run.zip" "http://cdn.sencha.com/cmd/${SENCHA_VERSION}/no-jre/SenchaCmd-${SENCHA_VERSION}-linux-amd64.sh.zip" && \
