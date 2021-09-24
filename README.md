@@ -2,6 +2,8 @@
 
 ## Description
 
+[![Docker Image CI](https://github.com/DevVault/SenchaCMDDocker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/DevVault/SenchaCMDDocker/actions/workflows/docker-image.yml)
+
 [Docker](http://www.docker.com/) image to run [Sencha Cmd](http://www.sencha.com/products/sencha-cmd/#overview).
 
 ### What is Sencha Cmd?
